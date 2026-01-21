@@ -30,6 +30,14 @@ main img {
     box-shadow: var(--box-shadow);
 }
 
+main {
+    max-width: 840px;
+}
+
+p {
+    padding: 0;
+}
+
 aside {
     width: 20em;
     margin: 1rem;
@@ -37,5 +45,17 @@ aside {
     padding: 1rem;
     background-color: var(--aside-bg);
     color: #333;
+    /* Este color solo se usa aquí, puedes dejarlo así o hacer otra variable */
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
 }
