@@ -45,7 +45,6 @@ aside {
     padding: 1rem;
     background-color: var(--aside-bg);
     color: #333;
-    /* Este color solo se usa aquí, puedes dejarlo así o hacer otra variable */
     text-align: center;
 }
 
