@@ -63,7 +63,7 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 65 px;
+    top: 65px;
     left: 150px;
     color: #eee;
 }
@@ -76,11 +76,11 @@ footer {
 
 /*class selector*/
 .box {
-    margin: 1 rem;
+    margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 1rem;
     background-color: #eee;
-    color: #000
+    color: #000;
 }
 
 .indent {
