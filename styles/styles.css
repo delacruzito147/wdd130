@@ -1,0 +1,38 @@
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+    padding: 16px;
+    text-align: center;
+}
+
+img {
+    width: 10em;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    display: block;
+    margin: 0 auto;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    margin-right: 15em;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+}
