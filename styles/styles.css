@@ -3,12 +3,13 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
+    width: 20em;
+    margin: 1em;
     background-color: #eee;
     text-align: center;
     border: solid rgb(0 0 0/0.2);
     color: #333;
+    padding: 1em;
 }
 
 aside img {
@@ -36,8 +37,7 @@ h1 {
 main img {
     width: 10em;
     height: auto;
-    border: 3px solid black;
-    border-radius: 20px;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -49,5 +49,11 @@ cite {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1em;
+    border-top: 1px solid #000;
 }
