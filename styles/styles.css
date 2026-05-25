@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 main {
     max-width: 840px;
 }
@@ -10,6 +16,7 @@ aside {
     border: solid rgb(0 0 0/0.2);
     color: #333;
     padding: 1em;
+    position: relative;
 }
 
 aside img {
@@ -31,10 +38,10 @@ nav a {
 h1 {
     color: darkblue;
     padding: 16px;
-    text-align: center;
 }
 
 main img {
+    float: right;
     width: 10em;
     height: auto;
     border: 1px solid black;
@@ -56,4 +63,26 @@ footer {
     text-align: center;
     margin-top: 1em;
     border-top: 1px solid #000;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+    color: #eee;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
 }
