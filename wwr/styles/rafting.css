@@ -72,7 +72,7 @@ h1 {
 .hero article {
     background-color: var(--secundary-color);
     padding: 16px;
-    position: relative;
+    position: absolute;
 }
 
 .hero article img {
