@@ -69,9 +69,14 @@ h1 {
     color: #fff;
 }
 
+.hero article {
+    background-color: var(--secundary-color);
+    padding: 16px;
+}
+
 .hero article img {
     float: right;
-    width: 125px;
+    width: 110px;
 }
 
 footer img {
