@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #055a05;
-    --secundary-color: #f4a261;
+    --primary-color: #0e9ab6dd;
+    --secundary-color: #f9a931;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -10,6 +10,24 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 9rem;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
 }
 
 * {
@@ -56,6 +74,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    margin-top: 15px;
 }
 
 h1 {
@@ -73,11 +92,46 @@ h1 {
     background-color: var(--secundary-color);
     padding: 16px;
     position: absolute;
+    bottom: 10px;
+    /*si pongo aqui un position absolute se quita el section*/
 }
 
 .hero article img {
     float: right;
     width: 110px;
+    /*Porque si agrando la imagen no puedo usar claer both?*/
+}
+
+.history {
+    display: flex;
+    align-items: center;
+}
+
+.history img {
+    width: 20rem;
+    height: 10rem;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.adventure figcaption {
+    text-align: center;
+}
+
+.adventure img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    gap: 67px;
 }
 
 footer img {
