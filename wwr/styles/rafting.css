@@ -74,10 +74,9 @@ article {
     display: block;
     width: 100%;
     height: auto;
-    margin-top: 15px;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 10px;
     width: 100%;
@@ -88,12 +87,17 @@ h1 {
     color: #fff;
 }
 
+.art {
+    margin-top: 15px;
+}
+
 .hero article {
     background-color: var(--secundary-color);
     padding: 16px;
     position: absolute;
     bottom: 10px;
     /*si pongo aqui un position absolute se quita el section*/
+    /*que hace el position absolute que si no pongo nada se pone encima del section*/
 }
 
 .hero article img {
