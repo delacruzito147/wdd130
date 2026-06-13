@@ -39,6 +39,8 @@ nav a {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 header,
@@ -142,4 +144,36 @@ footer img {
     width: 40px;
     margin: 0;
     padding: 0;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.map iframe {
+    width: 500px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.adv {
+    text-align: center;
 }

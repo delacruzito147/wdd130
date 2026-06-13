@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main {
+    max-width: 500px;
+    background-color: gray;
+    color: aliceblue;
+    padding: 50px;
+}
+
+form {
+    max-width: 400px;
+    background-color: #ddd;
+    color: #111;
+    padding: 50px;
+}
+
+input,
+textarea,
+select {
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: blue;
+}
+
+code {
+    display: block;
+    background-color: #000;
+    color: #fff;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+}
